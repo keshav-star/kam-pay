@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  margin-left: 4rem;
+  padding:0 ;
+  box-sizing: border-box;
+}
+.navbar{
+  background:linear-gradient(to right,white,white,skyblue)
+}
+.left,
+.right {
+  margin: auto;
+  display: flex;
+  padding: .2rem;
+}
+.student h1{
+  font-weight: 7x00;
+}
+.nav-item {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 27px;
+  padding: 5px 12px;
+}
+
+.join {
+  border-radius: 20px;
+  background-color:rgb(49, 49, 49);
+  color: white;
+}
+
+.nav-item:hover {
+  border-radius: 23px;
+  background-color: rgb(61, 61, 61);
+  color: white;
+}
+
+right {
+  position: absolute;
+  right: 0;
+}
+
+#searchBar {
+  height: 2rem;
+  margin: auto;
+  border-radius: 20px;
+  padding: .3rem;
+}
