@@ -1,0 +1,27 @@
+{
+    "Sai-sweets":
+    {
+       "location":"Sector-17",
+       "job-type":"cashier",
+       "pay":"200",
+       "Rating":"3",
+       "Duration":"1" 
+    },
+    "Bikaner":
+    {
+       "location":"Sector-14",
+       "job-type":"server",
+       "pay":"300",
+       "Rating":"5",
+       "Duration":"3" 
+    },
+    "Kulcha-Nation":
+    {
+       "location":"Sector-3",
+       "job-type":"cook-helper",
+       "pay":"200",
+       "Rating":"3",
+       "Duration":"1" 
+    }
+
+}

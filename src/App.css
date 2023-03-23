@@ -1,48 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
 body {
   margin: 0;
-  margin-left: 4rem;
-  padding:0 ;
+  padding: 0;
   box-sizing: border-box;
+  font-size: 15px;
+  scrollbar-width: transparent;
+  font-family: 'Poppins', sans-serif;
 }
-.navbar{
-  background:linear-gradient(to right,white,white,skyblue)
-}
-.left,
-.right {
-  margin: auto;
-  display: flex;
-  padding: .2rem;
-}
-.student h1{
-  font-weight: 7x00;
-}
-.nav-item {
+
+.navbar {
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+  background: linear-gradient(to right top, white, white, white, #4CC7CC);
   cursor: pointer;
-  font-weight: 600;
-  font-size: 27px;
-  padding: 5px 12px;
+}
+
+.navbar p {
+  color: #117C82;
+}
+
+.navbar h2 {
+  color: #4D5965;
+
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 22px;
+  padding: 10px 30px;
 }
 
 .join {
-  border-radius: 20px;
-  background-color:rgb(49, 49, 49);
+  border-radius: 25px;
+  background-color: #4D5965;
   color: white;
 }
 
 .nav-item:hover {
-  border-radius: 23px;
-  background-color: rgb(61, 61, 61);
+  border-radius: 24px;
+  background-color: rgb(49, 49, 49);
   color: white;
 }
 
-right {
-  position: absolute;
-  right: 0;
+.sec {
+  display: flex;
+  justify-content: space-evenly;
+  /* border-left: 1px dotted black; */
 }
 
-#searchBar {
-  height: 2rem;
-  margin: auto;
-  border-radius: 20px;
+.sec-content {
+  margin-top: 5rem;
+}
+
+.sec-content h1 {
+  font-weight: 700;
+}
+
+.sec-content div {
+  margin: 1.5rem 0;
+  line-height: 1.5rem;
+}
+
+.sec-content button:hover {
+  background-color: #fff;
+  color: #232323;
+}
+
+.ftr {
+  background-color: #4D5965;
+  padding: 4rem;
+}
+
+.ftr h4 {
+  color: #ACFAF2;
+}
+
+.ftr div {
   padding: .3rem;
 }
