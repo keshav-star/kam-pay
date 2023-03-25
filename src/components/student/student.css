@@ -1,0 +1,61 @@
+.nav-item::after {
+    content: '';
+    border: 3px solid #117C82;
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+    width: 100%;
+}
+
+.image {}
+
+.jobed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jobs {
+    background-color: transparent;
+    border-left: 3px solid #7dd3cb;
+    border-top: 3px solid #7dd3cb;
+    border-bottom: 3px solid #7dd3cb;
+    border-right: 1px solid #7dd3cb;
+    padding: .8rem 2rem;
+    border-radius: 10px 0 0 10px;
+}
+
+#jobsearch {
+    padding: .8rem;
+    width: 40%;
+    border-top: 3px solid #7dd3cb;
+    border-bottom: 3px solid #7dd3cb;
+    border-left: 1px solid #7dd3cb;
+    border-right: 1px solid #7dd3cb;
+}
+
+#city {
+    background-color: transparent;
+    padding: .8rem 2rem;
+    border-left: 1px solid #7dd3cb;
+    border-top: 3px solid #7dd3cb;
+    border-bottom: 3px solid #7dd3cb;
+    border-right: 3px solid #7dd3cb;
+    border-radius: 0 10px 10px 0;
+}
+.searchbutton{
+    background-color: #4D5965;
+    border-radius: 12px;
+    color: white;
+    padding: 1rem 2.3rem;
+    margin-left: 2rem;
+}
+#apply{
+    background-color: #4D5965;
+    border-radius: 12px;
+    color: white;
+}
+.filter{
+   padding: 4rem;
+    width: 20%;
+}

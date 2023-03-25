@@ -1,29 +1,32 @@
-// import React from 'react'
-// export default function CompanyCard() {
-  //   return (
-    //     <div>
-//         <img className='cardid' src={cardImage} alt="no" />
-//     </div>
-//   )
-// }
+import cardImage from '../../assets/Baskin-Robbins_logo.png'
 
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import cardImage from '../assets/Baskin-Robbins_logo.png'
-
-function CompanyCard() {
+function CompanyCard(props) {
   return (
-    <Card style={{ width: '18rem',textAlign:'center' }}>
-      <Card.Img height="90px" variant="top" src={cardImage} />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
+    <div className='border border-4 m-4 rounded-4'>
+      <div className='container m-2 d-flex'>
+
+        <div className="image m-2">
+          <img width="100px" src={cardImage} alt="" />
+        </div>
+        
+        <div className="cardtext  mx-3">
+          <p>{props.name}</p>
+
+          <div className='d-flex'>
+            <h2 className='me-3'>{props.jobtitle}</h2>
+            <p className='m-auto'>{props.rating}</p>
+          </div>
+
+          <p>{props.place}</p>
+          
+          <div className='d-flex'>
+            <h1 className='fw-bold'>&#x20B9; {props.pay}</h1>
+            <div id="apply" className='my-auto ms-4 px-4 py-2'>apply{"->"}</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
   );
 }
 

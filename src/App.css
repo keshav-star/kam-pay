@@ -10,25 +10,34 @@ body {
 }
 
 .navbar {
-  margin-left: 4rem;
-  margin-bottom: 4rem;
+  padding-left: 4rem;
   background: linear-gradient(to right top, white, white, white, #4CC7CC);
   cursor: pointer;
+  border-bottom: 2px solid grey;
 }
 
 .navbar p {
   color: #117C82;
+  margin: 0;
+  font-weight: 500;
 }
-
+/* 1BBBC2 */
 .navbar h2 {
+  margin-top: 1.8rem;
   color: #4D5965;
 
 }
 
 .nav-item {
+  position: relative;
   font-weight: 500;
   font-size: 22px;
   padding: 10px 30px;
+}
+
+.nav-item a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .join {
@@ -62,6 +71,14 @@ body {
   line-height: 1.5rem;
 }
 
+.sec-content button{
+  border-radius: 24px;
+  background-color: rgb(49, 49, 49);
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 10px 30px;
+}
 .sec-content button:hover {
   background-color: #fff;
   color: #232323;

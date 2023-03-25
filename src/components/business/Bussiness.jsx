@@ -1,5 +1,8 @@
 import React from 'react'
-import Bdata from '../../Data/Business.json'
+import logo from '../../assets/logo.png'
+// import Bdata from '../../Data/Business.json'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 export default function Bussiness() {
   return (
     <>
@@ -16,9 +19,9 @@ export default function Bussiness() {
           <li className='nav-item ms-5'>Home</li>
           <li className='nav-item ms-5'>My requests</li> {/* will provide create, previous,pending */}
           {/* <li className='nav-item ms-5'>History</li> */}
-          <div>
+          <div className='d-flex'>
             <li className='nav-item join mx-5'>Profile</li>
-            <i class="fas fa-accessible-icon fa-solid fa-user"></i>
+            {/* <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> */}
           </div>
         </ul>
       </div>

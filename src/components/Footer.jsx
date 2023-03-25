@@ -11,7 +11,7 @@ export default function Footer() {
                     <div>Privacy policy</div>
                     <div>Terms and Conditions</div>
                 </div>
-                This website is developed by whiet shadies 	&#169; 2023
+                This website is developed by white shadies 	&#169; 2023
             </div>
             <div>
                 <h4>Actions</h4>
